@@ -1,4 +1,6 @@
-# Slack Bot
+# Slack Bot Showcase
+# <p align="center">[<img alt="showcase" src="./showcase.png" />](./showcase.png)</p>
+
 ## Requires NodeJS >= 15.4.0
 
 1. Endpoints:
