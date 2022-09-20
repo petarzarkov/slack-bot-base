@@ -1,4 +1,9 @@
-import "dotenv/config";
+try {
+    require("dotenv/config");
+// eslint-disable-next-line no-empty
+} catch (error) {
+}
+
 import { App, LogLevel, Logger } from "@slack/bolt";
 import { HotLogger } from "hot-utils";
 import { init, JiraAPI } from "./app";

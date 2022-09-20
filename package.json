@@ -1,6 +1,6 @@
 {
   "name": "slack-bot-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Petar Zarkov",
   "description": "Slack Bot Base for slack utilities",
   "repository": {
@@ -29,21 +29,22 @@
   },
   "dependencies": {
     "@slack/bolt": "3.12.1",
-    "hot-utils": "1.4.2",
     "config": "3.3.7",
+    "hot-utils": "1.4.2",
+    "only": "^0.0.2",
     "uuid": "8.3.2"
   },
   "devDependencies": {
     "@types/config": "0.0.41",
     "@types/node": "17.0.23",
-    "@types/uuid": "8.3.4",
     "@types/node-fetch": "2.6.1",
+    "@types/uuid": "8.3.4",
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
-    "eslint": "8.13.0",
     "dotenv": "16.0.1",
-    "rimraf": "3.0.2",
+    "eslint": "8.13.0",
     "nodemon": "2.0.19",
+    "rimraf": "3.0.2",
     "ts-node": "10.7.0",
     "typescript": "4.7.4"
   }
