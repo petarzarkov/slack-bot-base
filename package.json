@@ -1,6 +1,6 @@
 {
   "name": "slack-bot-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Petar Zarkov",
   "description": "Slack Bot Base for slack utilities",
   "repository": {
@@ -23,7 +23,9 @@
     "lint": "tsc --noEmit && eslint -c .eslintrc.js --ext .ts,.tsx ./src --max-warnings 0",
     "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Warn: no tests yet\" && exit 0",
-    "test:coverage": "echo \"Warn: no tests yet\" && exit 0"
+    "test:coverage": "echo \"Warn: no tests yet\" && exit 0",
+    "heroku-prebuild": "npm ci",
+    "heroku-cleanup": "npm install --only=prod"
   },
   "dependencies": {
     "@slack/bolt": "3.12.1",
