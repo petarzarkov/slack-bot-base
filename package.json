@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@slack/bolt": "3.12.1",
-    "hot-utils": "1.4.1",
+    "hot-utils": "1.4.2",
     "config": "3.3.7",
     "uuid": "8.3.2"
   },

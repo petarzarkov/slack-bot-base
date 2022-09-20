@@ -81,6 +81,17 @@ export const init = (app: App<AppContext>) => {
         await say(helpBlock);
     });
 
+    app.event("app_home_opened", async ({ client, body }) => {
+        await client.views.publish({
+            user_id: body.event.user,
+            view: {
+                type: "home",
+                // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+                blocks: helpBlock.blocks!
+            }
+        });
+    });
+
     app.action({ action_id: actions.botAdd }, async ({ payload, ack, client, respond }) => {
 
         await ack();
