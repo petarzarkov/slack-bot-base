@@ -56,3 +56,4 @@
         - After done adding the events CLICK ON SAVE CHANGES and reinstall the app
 
     - Always show my bot as online Features -> App Home
+
