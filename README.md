@@ -1,6 +1,9 @@
 # Slack Bot Showcase
 # <p align="center">[<img alt="showcase" src="./showcase.png" />](./showcase.png)</p>
 
+## [Join me in slack to play around with the bot](https://join.slack.com/t/testing-gtv5991/shared_invite/zt-1gdat138l-UaKRmo6zT4D2GZURgu182w)
+
+
 ## Requires NodeJS >= 15.4.0
 
 1. Endpoints:
