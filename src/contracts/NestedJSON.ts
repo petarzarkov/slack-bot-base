@@ -1,0 +1,1 @@
+export type NestedJSON = { [x: string]: NestedJSON };
